@@ -1,0 +1,359 @@
+
+    *{padding: 0; margin: 0;}
+    .header{
+        overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+        padding: 20px;
+        z-index: 99;
+       
+    }
+    .logo{
+       
+        width: 57px;
+        float: left;
+    }
+    .menu{
+        float: right;
+        width:200px;
+    }
+    .menu ul li {
+       float: left;
+        list-style: none;
+        padding: 20px 10px 0 10px;
+        
+    }
+    
+     .menu ul li a{
+       text-decoration: none;
+       text-transform: uppercase;
+        
+    }
+    
+    .banner{
+        background: url(images/banner-u.jpg) top center no-repeat;
+        height: 224px;
+        background-size: cover;
+       clear: both;
+        
+        margin-top: 100px;
+    }
+    
+    
+    .banner h2{
+        padding-top:100px;
+        padding-left: 20px;
+        color: white;
+        font-size: 30px;
+    }
+    .containt-hol{
+        overflow: hidden;
+      
+        
+        
+    }
+    .geef-body-left{
+        
+       
+        height: 400px;
+        width: 50%;
+        position: absolute;
+        background: white;
+        margin-top: -30px;
+        margin-left: 20px;
+        padding: 5px;
+        
+    }
+    .geef-body-left-border{
+        margin: 2px;
+        padding: 2px;
+        border: 1px solid #CCFFFF ;
+        width: 100%;
+        
+        
+    }
+    
+    .form-holder h2{
+      border-bottom: 1px solid #CCFFFF;
+        padding: 10px 5px;
+        color: #243980;
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 5px;
+       
+        
+    }
+    
+     .form-holder h3{
+      border: 1px red;
+         border-style: dotted;
+        padding: 10px 5px;
+         color: orangered;
+         font-weight: 100;
+        margin: 5px;
+         
+    }
+    
+    .geef-body-right{
+        
+    color: #243980;
+    background: #E7EBF7;
+        margin-top: 20px;
+    width: 45%;
+        float: right;
+        padding: 20px 5px;
+    
+    }
+    .geef-body-right p a{
+        text-decoration: none;
+        color: blue;
+        
+    }
+    .feft-form-h{
+      float: left;
+        
+    }
+    .select-box-text{
+        border: 1px black;
+        width: 40%;
+        border-style: dotted;
+        padding: 10px;
+    }
+    
+    
+  .styled-select {
+  background:  url(images/down-arrow.png) no-repeat right center;
+  height: 40px;
+  overflow: hidden;
+  width: 240px;
+      
+}
+.styled-select select {
+  background: transparent;
+  border: none;
+    
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  /* If you add too much padding here, the options won't show in IE */
+  width: 257px;
+}
+
+
+/* -------------------- Rounded Corners */
+.rounded {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* -------------------- Colors: Background */
+
+.black {
+  border: 1px solid lightgray;
+}
+/* -------------------- Colors: Text */
+
+.black select {
+  color: black;
+    padding-top: 10px;
+    
+}
+
+    .ftop-cheak-box{
+        padding: 10px;
+      
+    } 
+    .select-box-text{
+        float: right;
+        
+        
+    }
+    
+    .feft-form-h h5{
+        
+         
+        padding: 10px 5px;
+        color: #243980;
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 5px;
+    }
+    .boder-bottom{
+         border-bottom: 1px solid #CCFFFF; 
+        width: 99%;
+        margin: 10px auto;
+        
+        clear: both;
+        
+    }
+    .form-element{
+       border-bottom: 1px solid lightgray; 
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .form-element .left-text h2{
+        width: 200px;
+       border: none;
+        float: left;
+        color: darkgray;
+        
+    }
+     .form-element .right-text {
+        width: 300px;
+        border: none;
+        float: left;
+       
+         
+        
+    }
+    
+    .form-element .right-text h3{
+     float: left;
+      background:  url(images/icon-red.png) no-repeat  ;
+
+        font-size: 12px;
+        padding-left: 11px;
+         padding-right: 10px;
+        color: white;
+        border: none;
+         width: 40px;
+        font-weight: 700;
+    }
+    
+     .form-element .right-text h7{
+        float: left;
+        background: url(images/icon-green.png) no-repeat;
+        font-size: 12px;
+        padding-left: 11px;
+        padding-top: 10px;
+        color: white;
+        border: none;
+        width: 40px;
+         height: 40px;
+        font-weight: 700;
+    }
+     .form-element .right-text h5{
+         float: left;
+        width: 106px;
+        font-weight: bold;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+     .form-element .right-text h6{
+         float: left;
+        width: 40px;
+        font-weight: bold;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    
+    input[type=text], select {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.right-text input[type=submit] {
+    width: 150px;
+    background-color: #5DA924;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+    .footer_top{
+        clear: both;
+       padding: 30px 20px 0 0;
+        margin-top: 280px;
+        border-top: 2px solid #CCFFFF;
+        margin-bottom: 100px;
+        overflow: hidden;
+        
+    }
+    .footer_top .box-1{
+        width: 15%;
+         padding: 20px;
+        float: left;
+        font-size: 18px;
+    }
+    .footer_top .box-1 a{
+        text-decoration: none;
+        color: blue;
+    }
+    .footer_top .box-1 a:hover{
+       text-decoration: underline;
+        color: blue;
+    }
+    .footer_top .box-2{
+        width: 79%;
+        
+        float: left;
+    }
+   .footer_top .box-2 h2{
+        color: #243980;
+       padding: 0 20px 20px 0px;
+    }
+    .image-hol .single-img{
+        border: 1px solid #99FFFF;
+        width: 250px;
+        float: left;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 10px ;
+        
+    }
+    .image-hol .single-text{
+      float: left; 
+        width:400px;
+        margin-left: 20px;
+        color: gray;
+    }
+    .footer {
+     
+ 
+  position: fixed;
+  bottom: 0;
+  width: 100%!important;
+        padding: 20px;
+		border-top:1px solid gray;
+		background:#fff;
+       
+   color: gray;
+  
+        margin-top: 20px;
+        width: 250px;
+        float: left;
+}
+    .text-bottom{
+     width: 250px;
+        float: right;   
+    }
+    
+    .text-bottom input[type=submit] {
+   
+    background-color: #2465B0;
+    color: white;
+    padding: 5px 10px;
+    margin:  0;
+    border: none;
+    
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+       
+       
+}
